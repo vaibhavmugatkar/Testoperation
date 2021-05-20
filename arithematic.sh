@@ -15,3 +15,9 @@ b=5
 c=7
 mul=(( a*b+c ))
 echo "sum" $sum
+
+a=100
+b=50
+c=10
+mod= (( a%b+c ))
+echo "mod" $mod
