@@ -14,4 +14,10 @@ a=6
 b=5
 c=7
 mul=(( a*b+c ))
-echo "sum" $sum
+echo "mul" $mul
+
+a=5
+b=9
+c=8
+div=(( c+a/b ))
+echo "div" $div
