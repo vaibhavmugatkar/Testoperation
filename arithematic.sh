@@ -10,3 +10,8 @@ c=5
 sum=(( a+b*c ))
 echo "sum" $sum
 
+a=6
+b=5
+c=7
+mul=(( a*b+c ))
+echo "sum" $sum
